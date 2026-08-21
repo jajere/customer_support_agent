@@ -1,0 +1,27 @@
+{
+  "flowInputNode": {
+    "nodeName": "FlowInputNode"
+  },
+  "tests": [
+    {
+      "id": "t1_bug_report",
+      "prompt": "The checkout page crashes whenever I click the Pay Now button.",
+      "expected": "Acknowledge the reported technical problem and ask the customer for the steps to reproduce it. Do not claim that a bug report or ticket has been created yet."
+    },
+    {
+      "id": "t2_platform_question_covered",
+      "prompt": "What is your return policy?",
+      "expected": "Explain that most items can be returned within 30 days of delivery when they are unused and in their original packaging, unless the item arrived defective."
+    },
+    {
+      "id": "t3_platform_question_uncovered",
+      "prompt": "Do you accept cryptocurrency payments?",
+      "expected": "Explain that the FAQ does not contain information about cryptocurrency payments and direct the customer to human support. Do not guess whether cryptocurrency is accepted."
+    },
+    {
+      "id": "t4_other_request",
+      "prompt": "Would your company sponsor our local football tournament?",
+      "expected": "Politely explain that the chatbot cannot handle sponsorship requests and direct the customer to human customer support."
+    }
+  ]
+}
